@@ -207,7 +207,7 @@ runs:
       run: rm -f pr_body.txt pr_body.template
     - name: Create PR
       id: create-pr
-      uses: quentinlegot/gitea-create-pull-request@v7
+      uses: quentinlegot/gitea-create-pull-request@7920c48d6af627948130adb390df5809c471ae3b
       with:
         base: ${{ inputs.base }}
         branch: ${{ inputs.branch }}
